@@ -1,4 +1,29 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <!-- DIPLOMATIC TRAITS -->
+  <!-- War is All 1-2 -->
+  <SimulationDescriptor Name="FactionTraitWarIsAll1"         Type="FactionTrait">
+    <SimulationModifierDescriptors>
+      <BinarySimulationModifierDescriptor TargetProperty="CityApproval" Operation="Addition" Right="$(WarCount)" BinaryOperation="Multiplication" Left="4" Path="EmpireTypeMajor/ClassCity"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="FactionTraitWarIsAll2"         Type="FactionTrait">
+    <SimulationModifierDescriptors>
+      <BinarySimulationModifierDescriptor TargetProperty="CityApproval" Operation="Addition" Right="$(WarCount)" BinaryOperation="Multiplication" Left="8" Path="EmpireTypeMajor/ClassCity"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
 
+  <!-- Conservative -->
+  <SimulationDescriptor Name="FactionTraitConservative1"         Type="FactionTrait">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MinorFactionSlotCount"    Operation="Multiplication" Value="0"    Path="EmpireTypeMajor" TooltipHidden="true"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  
+  <!-- Forced Diversion -->
+  <SimulationDescriptor Name="FactionTraitForcedDiversion1"         Type="FactionTrait">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MinorFactionSlotCount"    Operation="Addition" Value="17"    Path="EmpireTypeMajor" TooltipHidden="true"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
 </Datatable>
