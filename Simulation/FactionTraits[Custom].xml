@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <!-- MAJOR TRAITS -->
+  <!-- Dust Ignorant Major -->
+  <FactionTrait Name="FactionTraitTerribleDustGuv" SubCategory="StandardTrait" Family="Trait"  Custom="true" Cost="-30">
+         <Prerequisites>!FactionTraitExpensiveCities1,!FactionTraitExpensiveCities2,!FactionTraitExpensiveCities3,!FactionTraitCheapCities1,!FactionTraitCheapCities2,!FactionTraitCheapCities3</Prerequisites>
+    <SimulationDescriptorReference Name="FactionTraitTerribleDustGuv"/>
+  </FactionTrait>
+
+  <!-- DIPLOMATIC TRAITS -->
+  <!-- War is All 1-2 -->
+  <FactionTrait Name="FactionTraitWarIsAll1"            SubCategory="CustomTrait" Family="Diplomacy" Root="FactionTraitWarIsAll1"     Level="1" Custom="true" Cost="5">
+      <Prerequisites>!FactionTraitDiplomacy1Level1,!FactionTraitDiplomacy1Level2</Prerequisites>
+    <SimulationDescriptorReference Name="FactionTraitWarIsAll1"/>
+  </FactionTrait>
+  <FactionTrait Name="FactionTraitWarIsAll2"            SubCategory="CustomTrait" Family="Diplomacy" Root="FactionTraitWarIsAll1"     Level="2" Custom="true" Cost="10">
+        <Prerequisites>!FactionTraitDiplomacy1Level1,!FactionTraitDiplomacy1Level2</Prerequisites>
+    <SimulationDescriptorReference Name="FactionTraitWarIsAll2"/>
+  </FactionTrait>
+    <!-- Naive -->
+  <FactionTrait Name="FactionTraitDiplomacy1Level1"            SubCategory="CustomTrait" Family="Diplomacy" Root="FactionTraitDiplomacy1"     Level="1" Custom="true" Cost="5">
+      <Prerequisites>!FactionTraitWarIsAll1,!FactionTraitWarIsAll2</Prerequisites>
+    <SimulationDescriptorReference Name="FactionTraitDiplomacy1Level1"/>
+  </FactionTrait>
+  <FactionTrait Name="FactionTraitDiplomacy1Level2"            SubCategory="CustomTrait" Family="Diplomacy" Root="FactionTraitDiplomacy1"     Level="2" Custom="true" Cost="10">
+      <Prerequisites>!FactionTraitWarIsAll1,!FactionTraitWarIsAll2</Prerequisites>
+    <SimulationDescriptorReference Name="FactionTraitDiplomacy1Level2"/>
+  </FactionTrait>
+  
+  <!-- Conservative -->
+  <FactionTrait Name="FactionTraitConservative1"            SubCategory="CustomTrait" Family="Diplomacy" Custom="true" Cost="-10">
+      <Prerequisites>!FactionTraitDrakkensMainQuest,!FactionTraitForcedDiversion1</Prerequisites>
+    <SimulationDescriptorReference Name="FactionTraitConservative1"/>
+  </FactionTrait>
+  
+  <!-- Forced Diversion -->
+  <FactionTrait Name="FactionTraitForcedDiversion1"            SubCategory="CustomTrait" Family="Diplomacy" Custom="true" Cost="20">
+      <Prerequisites>!FactionTraitDrakkensMainQuest,!FactionTraitConservative1</Prerequisites>
+    <SimulationDescriptorReference Name="FactionTraitForcedDiversion1"/>
+  </FactionTrait>
+  
+  
+  <!-- ECONOMIC TRAITS -->
+  <!-- Adept at Science 1-3 -->
+  <FactionTrait Name="FactionTraitAdeptScience1" SubCategory="CustomTrait" Family="Economy" Root="FactionTraitAdeptScience1" Level="1" Custom="true" Cost="8">
+        <Prerequisites>!FactionTraitTerribleScience1,!FactionTraitTerribleScience2,!FactionTraitTerribleScience3</Prerequisites>
+    <SimulationDescriptorReference Name="FactionTraitAdeptScience1"/>
+  </FactionTrait>
+
+  <FactionTrait Name="FactionTraitAdeptScience2" SubCategory="CustomTrait" Family="Economy" Root="FactionTraitAdeptScience1" Level="2" Custom="true" Cost="18">
+        <Prerequisites>!FactionTraitTerribleScience1,!FactionTraitTerribleScience2,!FactionTraitTerribleScience3</Prerequisites>
+    <SimulationDescriptorReference Name="FactionTraitAdeptScience2"/>
+  </FactionTrait>
+
+  <FactionTrait Name="FactionTraitAdeptScience3" SubCategory="CustomTrait" Family="Economy" Root="FactionTraitAdeptScience1" Level="3" Custom="true" Cost="30">
+        <Prerequisites>!FactionTraitTerribleScience1,!FactionTraitTerribleScience2,!FactionTraitTerribleScience3</Prerequisites>
+    <SimulationDescriptorReference Name="FactionTraitAdeptScience3"/>
+  </FactionTrait>
+
+  <!-- Terrible at Science 1-3 -->
+  <FactionTrait Name="FactionTraitTerribleScience1" SubCategory="CustomTrait" Family="Economy" Root="FactionTraitTerribleScience1" Level="1" Custom="true" Cost="-5">
+        <Prerequisites>!FactionTraitAdeptScience1,!FactionTraitAdeptScience2,!FactionTraitAdeptScience3</Prerequisites>
+    <SimulationDescriptorReference Name="FactionTraitTerribleScience1"/>
+  </FactionTrait>
+
+  <FactionTrait Name="FactionTraitTerribleScience2" SubCategory="CustomTrait" Family="Economy" Root="FactionTraitTerribleScience1" Level="2" Custom="true" Cost="-10">
+        <Prerequisites>!FactionTraitAdeptScience1,!FactionTraitAdeptScience2,!FactionTraitAdeptScience3</Prerequisites>
+    <SimulationDescriptorReference Name="FactionTraitTerribleScience2"/>
+  </FactionTrait>
+
+  <FactionTrait Name="FactionTraitTerribleScience3" SubCategory="CustomTrait" Family="Economy" Root="FactionTraitTerribleScience1" Level="3" Custom="true" Cost="-16">
+        <Prerequisites>!FactionTraitAdeptScience1,!FactionTraitAdeptScience2,!FactionTraitAdeptScience3</Prerequisites>
+    <SimulationDescriptorReference Name="FactionTraitTerribleScience3"/>
+  </FactionTrait>
+
+  <!-- Adept at Food 1-3 -->
+  <FactionTrait Name="FactionTraitAdeptFood1" SubCategory="CustomTrait" Family="Economy" Root="FactionTraitAdeptFood1" Level="1" Custom="true" Cost="8">
+        <Prerequisites>!FactionTraitTerribleFood1,!FactionTraitTerribleFood2,!FactionTraitTerribleFood3</Prerequisites>
+    <SimulationDescriptorReference Name="FactionTraitAdeptFood1"/>
+  </FactionTrait>
+
+  <FactionTrait Name="FactionTraitAdeptFood2" SubCategory="CustomTrait" Family="Economy" Root="FactionTraitAdeptFood1" Level="2" Custom="true" Cost="18">
+        <Prerequisites>!FactionTraitTerribleFood1,!FactionTraitTerribleFood2,!FactionTraitTerribleFood3</Prerequisites>
+    <SimulationDescriptorReference Name="FactionTraitAdeptFood2"/>
+  </FactionTrait>
+
+  <FactionTrait Name="FactionTraitAdeptFood3" SubCategory="CustomTrait" Family="Economy" Root="FactionTraitAdeptFood1" Level="3" Custom="true" Cost="30">
+        <Prerequisites>!FactionTraitTerribleFood1,!FactionTraitTerribleFood2,!FactionTraitTerribleFood3</Prerequisites>
+    <SimulationDescriptorReference Name="FactionTraitAdeptFood3"/>
+  </FactionTrait>
+
+  <!-- Terrible at Food 1-3 -->
+  <FactionTrait Name="FactionTraitTerribleFood1" SubCategory="CustomTrait" Family="Economy" Root="FactionTraitTerribleFood1" Level="1" Custom="true" Cost="-5">
+        <Prerequisites>!FactionTraitAdeptFood1,!FactionTraitAdeptFood2,!FactionTraitAdeptFood3</Prerequisites>
+    <SimulationDescriptorReference Name="FactionTraitTerribleFood1"/>
+  </FactionTrait>
+
+  <FactionTrait Name="FactionTraitTerribleFood2" SubCategory="CustomTrait" Family="Economy" Root="FactionTraitTerribleFood1" Level="2" Custom="true" Cost="-10">
+        <Prerequisites>!FactionTraitAdeptFood1,!FactionTraitAdeptFood2,!FactionTraitAdeptFood3</Prerequisites>
+    <SimulationDescriptorReference Name="FactionTraitTerribleFood2"/>
+  </FactionTrait>
+
+  <FactionTrait Name="FactionTraitTerribleFood3" SubCategory="CustomTrait" Family="Economy" Root="FactionTraitTerribleFood1" Level="3" Custom="true" Cost="-16">
+        <Prerequisites>!FactionTraitAdeptFood1,!FactionTraitAdeptFood2,!FactionTraitAdeptFood3</Prerequisites>
+    <SimulationDescriptorReference Name="FactionTraitTerribleFood3"/>
+  </FactionTrait>
+  
+  <!-- Great at Industry 1-3 -->
+  <FactionTrait Name="FactionTraitAdeptIndustry1" SubCategory="CustomTrait" Family="Economy" Root="FactionTraitAdeptIndustry1" Level="1" Custom="true" Cost="15">
+        <Prerequisites>!FactionTraitTerribleIndustry1,!FactionTraitTerribleIndustry2,!FactionTraitTerribleIndustry3</Prerequisites>
+    <SimulationDescriptorReference Name="FactionTraitAdeptIndustry1"/>
+  </FactionTrait>
+
+  <FactionTrait Name="FactionTraitAdeptIndustry2" SubCategory="CustomTrait" Family="Economy" Root="FactionTraitAdeptIndustry1" Level="2" Custom="true" Cost="25">
+        <Prerequisites>!FactionTraitTerribleIndustry1,!FactionTraitTerribleIndustry2,!FactionTraitTerribleIndustry3</Prerequisites>
+    <SimulationDescriptorReference Name="FactionTraitAdeptIndustry2"/>
+  </FactionTrait>
+
+  <FactionTrait Name="FactionTraitAdeptIndustry3" SubCategory="CustomTrait" Family="Economy" Root="FactionTraitAdeptIndustry1" Level="3" Custom="true" Cost="40">
+        <Prerequisites>!FactionTraitTerribleIndustry1,!FactionTraitTerribleIndustry2,!FactionTraitTerribleIndustry3</Prerequisites>
+    <SimulationDescriptorReference Name="FactionTraitAdeptIndustry3"/>
+  </FactionTrait>
+  
+  <!-- Terrible at Industry 1-3 -->
+  <FactionTrait Name="FactionTraitTerribleIndustry1" SubCategory="CustomTrait" Family="Economy" Root="FactionTraitTerribleIndustry1" Level="1" Custom="true" Cost="-10">
+        <Prerequisites>!FactionTraitAdeptIndustry1,!FactionTraitAdeptIndustry2,!FactionTraitAdeptIndustry3</Prerequisites>
+    <SimulationDescriptorReference Name="FactionTraitTerribleIndustry1"/>
+  </FactionTrait>
+
+  <FactionTrait Name="FactionTraitTerribleIndustry2" SubCategory="CustomTrait" Family="Economy" Root="FactionTraitTerribleIndustry1" Level="2" Custom="true" Cost="-16">
+        <Prerequisites>!FactionTraitAdeptIndustry1,!FactionTraitAdeptIndustry2,!FactionTraitAdeptIndustry3</Prerequisites>
+    <SimulationDescriptorReference Name="FactionTraitTerribleIndustry2"/>
+  </FactionTrait>
+
+  <FactionTrait Name="FactionTraitTerribleIndustry3" SubCategory="CustomTrait" Family="Economy" Root="FactionTraitTerribleIndustry1" Level="3" Custom="true" Cost="-22">
+        <Prerequisites>!FactionTraitAdeptIndustry1,!FactionTraitAdeptIndustry2,!FactionTraitAdeptIndustry3</Prerequisites>
+    <SimulationDescriptorReference Name="FactionTraitTerribleIndustry3"/>
+  </FactionTrait>
+  
+    <!-- Great at Influence 1-3 -->
+  <FactionTrait Name="FactionTraitAdeptInfluence1" SubCategory="CustomTrait" Family="Economy" Root="FactionTraitAdeptInfluence1" Level="1" Custom="true" Cost="8">
+        <Prerequisites>!FactionTraitTerribleInfluence1,!FactionTraitTerribleInfluence2,!FactionTraitTerribleInfluence3</Prerequisites>
+    <SimulationDescriptorReference Name="FactionTraitAdeptInfluence1"/>
+  </FactionTrait>
+
+  <FactionTrait Name="FactionTraitAdeptInfluence2" SubCategory="CustomTrait" Family="Economy" Root="FactionTraitAdeptInfluence1" Level="2" Custom="true" Cost="18">
+        <Prerequisites>!FactionTraitTerribleInfluence1,!FactionTraitTerribleInfluence2,!FactionTraitTerribleInfluence3</Prerequisites>
+    <SimulationDescriptorReference Name="FactionTraitAdeptInfluence2"/>
+  </FactionTrait>
+
+  <FactionTrait Name="FactionTraitAdeptInfluence3" SubCategory="CustomTrait" Family="Economy" Root="FactionTraitAdeptInfluence1" Level="3" Custom="true" Cost="30">
+        <Prerequisites>!FactionTraitTerribleInfluence1,!FactionTraitTerribleInfluence2,!FactionTraitTerribleInfluence3</Prerequisites>
+    <SimulationDescriptorReference Name="FactionTraitAdeptInfluence3"/>
+  </FactionTrait>
+  
+  <!-- Terrible at Influence 1-3 -->
+  <FactionTrait Name="FactionTraitTerribleInfluence1" SubCategory="CustomTrait" Family="Economy" Root="FactionTraitTerribleInfluence1" Level="1" Custom="true" Cost="-5">
+        <Prerequisites>!FactionTraitAdeptInfluence1,!FactionTraitAdeptInfluence2,!FactionTraitAdeptInfluence3</Prerequisites>
+    <SimulationDescriptorReference Name="FactionTraitTerribleInfluence1"/>
+  </FactionTrait>
+
+  <FactionTrait Name="FactionTraitTerribleInfluence2" SubCategory="CustomTrait" Family="Economy" Root="FactionTraitTerribleInfluence1" Level="2" Custom="true" Cost="-10">
+        <Prerequisites>!FactionTraitAdeptInfluence1,!FactionTraitAdeptInfluence2,!FactionTraitAdeptInfluence3</Prerequisites>
+    <SimulationDescriptorReference Name="FactionTraitTerribleInfluence2"/>
+  </FactionTrait>
+
+  <FactionTrait Name="FactionTraitTerribleInfluence3" SubCategory="CustomTrait" Family="Economy" Root="FactionTraitTerribleInfluence1" Level="3" Custom="true" Cost="-16">
+        <Prerequisites>!FactionTraitAdeptInfluence1,!FactionTraitAdeptInfluence2,!FactionTraitAdeptInfluence3</Prerequisites>
+    <SimulationDescriptorReference Name="FactionTraitTerribleInfluence3"/>
+  </FactionTrait>
+  
+  
+  	<!-- Food per pop -->
+  <FactionTrait Name="FactionTraitFoodPerPop1" SubCategory="CustomTrait" Family="Economy" Custom="true" Cost="10">
+    <SimulationDescriptorReference Name="FactionTraitFoodPerPop1"/>
+  </FactionTrait>
+  
+	<!-- Industry per pop -->
+  <FactionTrait Name="FactionTraitIndustryPerPop1" SubCategory="CustomTrait" Family="Economy" Custom="true" Cost="20">
+    <SimulationDescriptorReference Name="FactionTraitIndustryPerPop1"/>
+  </FactionTrait>
+  
+    <!-- Science per pop -->
+  <FactionTrait Name="FactionTraitSciencePerPop1" SubCategory="CustomTrait" Family="Economy" Custom="true" Cost="15">
+    <SimulationDescriptorReference Name="FactionTraitSciencePerPop1"/>
+  </FactionTrait>
+  
+    <!-- Influence per pop -->
+  <FactionTrait Name="FactionTraitInfluencePerPop1" SubCategory="CustomTrait" Family="Economy" Custom="true" Cost="20">
+    <SimulationDescriptorReference Name="FactionTraitInfluencePerPop1"/>
+  </FactionTrait>
+  
+  
+  	<!-- Industry per Village -->
+  <FactionTrait Name="FactionTraitIndustryPerVillage1" SubCategory="CustomTrait" Family="Economy" Custom="true" Cost="20">
+    <SimulationDescriptorReference Name="FactionTraitIndustryPerVillage1"/>
+  </FactionTrait>
+
+  	<!-- Science per Village -->
+  <FactionTrait Name="FactionTraitSciencePerVillage1" SubCategory="CustomTrait" Family="Economy" Custom="true" Cost="10">
+    <SimulationDescriptorReference Name="FactionTraitSciencePerVillage1"/>
+  </FactionTrait>
+  
+  	<!-- Dust per Village -->
+  <FactionTrait Name="FactionTraitDustPerVillage1" SubCategory="CustomTrait" Family="Economy" Custom="true" Cost="15">
+    <SimulationDescriptorReference Name="FactionTraitDustPerVillage1"/>
+  </FactionTrait>
+  
+  	<!-- Influence per Village -->
+  <FactionTrait Name="FactionTraitInfluencePerVillage1" SubCategory="CustomTrait" Family="Economy" Custom="true" Cost="15">
+    <SimulationDescriptorReference Name="FactionTraitInfluencePerVillage1"/>
+  </FactionTrait>
+  
+  
+    <!-- Water Works -->
+  <FactionTrait Name="FactionTraitWaterWorks" SubCategory="CustomTrait" Family="Economy"    Custom="true" Cost="10">
+    <SimulationDescriptorReference Name="FactionTraitWaterWorks"/>
+  </FactionTrait>
+ 
+     <!-- Fish Diet -->
+  <FactionTrait Name="FactionTraitFishDiet" SubCategory="CustomTrait" Family="Economy"    Custom="true" Cost="10">
+    <SimulationDescriptorReference Name="FactionTraitFishDiet"/>
+  </FactionTrait>
+
+     <!-- Snow days -->
+  <FactionTrait Name="FactionTraitSnowDays" SubCategory="CustomTrait" Family="Economy"    Custom="true" Cost="6">
+    <SimulationDescriptorReference Name="FactionTraitSnowDays"/>
+  </FactionTrait>
+
+     <!-- Magma Thrive -->
+  <FactionTrait Name="FactionTraitMagmaBoii" SubCategory="CustomTrait" Family="Economy"    Custom="true" Cost="15">
+    <SimulationDescriptorReference Name="FactionTraitMagmaBoii"/>
+  </FactionTrait>
+
+     <!-- Desert Kingdom -->
+  <FactionTrait Name="FactionTraitDesertKingdom" SubCategory="CustomTrait" Family="Economy"    Custom="true" Cost="-5">
+    <SimulationDescriptorReference Name="FactionTraitDesertKingdom"/>
+  </FactionTrait>
+
+     <!-- Homesick -->
+  <FactionTrait Name="FactionTraitHomesick1" SubCategory="CustomTrait" Family="Economy"    Custom="true" Cost="-5">
+        <Prerequisites>!FactionTraitEconomy14</Prerequisites>
+    <SimulationDescriptorReference Name="FactionTraitHomesick1"/>
+  </FactionTrait>
+  <!-- Expansion disapproval -->
+  <FactionTrait Name="FactionTraitEconomy14"                   SubCategory="CustomTrait" Family="Economy"                                               Custom="true" Cost="15">
+        <Prerequisites>!FactionTraitHomesick1</Prerequisites>
+    <SimulationDescriptorReference Name="FactionTraitEconomy14"/>
+  </FactionTrait>
+
+  <!-- Content 1-2 -->
+  <FactionTrait Name="FactionTraitContent1"            SubCategory="CustomTrait" Family="Economy" Root="FactionTraitContent1"     Level="1" Custom="true" Cost="3">
+    <SimulationDescriptorReference Name="FactionTraitContent1"/>
+  </FactionTrait>
+  <FactionTrait Name="FactionTraitContent2"            SubCategory="CustomTrait" Family="Economy" Root="FactionTraitContent1"     Level="2" Custom="true" Cost="8">
+    <SimulationDescriptorReference Name="FactionTraitContent2"/>
+  </FactionTrait>
+  <FactionTrait Name="FactionTraitContent3"            SubCategory="CustomTrait" Family="Economy" Root="FactionTraitContent1"     Level="3" Custom="true" Cost="16">
+    <SimulationDescriptorReference Name="FactionTraitContent3"/>
+  </FactionTrait>
+
+     <!-- Just Better Really 1-2 -->
+  <FactionTrait Name="FactionTraitJustBetterBoii1" SubCategory="CustomTrait" Family="Economy" Root="FactionTraitJustBetterBoii1"     Level="1" Custom="true" Cost="10">
+     <Prerequisites>!FactionTraitGhettoBoii</Prerequisites>
+    <SimulationDescriptorReference Name="FactionTraitJustBetterBoii1"/>
+  </FactionTrait>
+  <FactionTrait Name="FactionTraitJustBetterBoii2" SubCategory="CustomTrait" Family="Economy" Root="FactionTraitJustBetterBoii1"    Level="2" Custom="true" Cost="20">
+     <Prerequisites>!FactionTraitGhettoBoii</Prerequisites>
+    <SimulationDescriptorReference Name="FactionTraitJustBetterBoii2"/>
+  </FactionTrait>
+ 
+     <!-- Ghetto -->
+  <FactionTrait Name="FactionTraitGhettoBoii" SubCategory="CustomTrait" Family="Economy"    Custom="true" Cost="-20">
+     <Prerequisites>!FactionTraitJustBetterBoii,!FactionTraitJustBetterBoii2,!FactionTraitCultists7</Prerequisites>
+    <SimulationDescriptorReference Name="FactionTraitGhettoBoii"/>
+  </FactionTrait>
+
+     <!-- Coast Bound -->
+  <FactionTrait Name="FactionTraitCoastBound" SubCategory="CustomTrait" Family="Economy" Custom="true" Cost="20">
+    <SimulationDescriptorReference Name="FactionTraitCoastBound"/>
+  </FactionTrait>
+  
+     <!-- Endless Ruination-->
+  <FactionTrait Name="FactionTraitEndlessRuination" SubCategory="CustomTrait" Family="Economy" Custom="true" Cost="5">
+    <SimulationDescriptorReference Name="FactionTraitEndlessRuination"/>
+  </FactionTrait>
+
+  <!-- Cheap Cities 1-3 -->
+  <FactionTrait Name="FactionTraitCheapCities1"            SubCategory="CustomTrait" Family="Economy" Root="FactionTraitCheapCities1"     Level="1" Custom="true" Cost="5">
+       <Prerequisites>!FactionTraitExpensiveCities1,!FactionTraitExpensiveCities2,!FactionTraitExpensiveCities3,!FactionTraitTerribleDustGuv</Prerequisites>
+    <SimulationDescriptorReference Name="FactionTraitCheapCities1"/>
+  </FactionTrait>
+  <FactionTrait Name="FactionTraitCheapCities2"            SubCategory="CustomTrait" Family="Economy" Root="FactionTraitCheapCities1"     Level="2" Custom="true" Cost="10">
+       <Prerequisites>!FactionTraitExpensiveCities1,!FactionTraitExpensiveCities2,!FactionTraitExpensiveCities3,!FactionTraitTerribleDustGuv</Prerequisites>
+    <SimulationDescriptorReference Name="FactionTraitCheapCities2"/>
+  </FactionTrait>
+  <FactionTrait Name="FactionTraitCheapCities3"            SubCategory="CustomTrait" Family="Economy" Root="FactionTraitCheapCities1"     Level="3" Custom="true" Cost="16">
+       <Prerequisites>!FactionTraitExpensiveCities1,!FactionTraitExpensiveCities2,!FactionTraitExpensiveCities3,!FactionTraitTerribleDustGuv</Prerequisites>
+    <SimulationDescriptorReference Name="FactionTraitCheapCities3"/>
+  </FactionTrait>
+  
+  <!-- Expensive Cities 1-3 -->
+  <FactionTrait Name="FactionTraitExpensiveCities1"            SubCategory="CustomTrait" Family="Economy" Root="FactionTraitExpensiveCities1"     Level="1" Custom="true" Cost="-4">
+         <Prerequisites>!FactionTraitCheapCities1,!FactionTraitCheapCities2,!FactionTraitCheapCities3,!FactionTraitTerribleDustGuv</Prerequisites>
+    <SimulationDescriptorReference Name="FactionTraitExpensiveCities1"/>
+  </FactionTrait>
+  <FactionTrait Name="FactionTraitExpensiveCities2"            SubCategory="CustomTrait" Family="Economy" Root="FactionTraitExpensiveCities1"     Level="2" Custom="true" Cost="-9">
+         <Prerequisites>!FactionTraitCheapCities1,!FactionTraitCheapCities2,!FactionTraitCheapCities3,!FactionTraitTerribleDustGuv</Prerequisites>
+    <SimulationDescriptorReference Name="FactionTraitExpensiveCities2"/>
+  </FactionTrait>
+  <FactionTrait Name="FactionTraitExpensiveCities3"            SubCategory="CustomTrait" Family="Economy" Root="FactionTraitExpensiveCities1"     Level="3" Custom="true" Cost="-15">
+         <Prerequisites>!FactionTraitCheapCities1,!FactionTraitCheapCities2,!FactionTraitCheapCities3,!FactionTraitTerribleDustGuv</Prerequisites>
+    <SimulationDescriptorReference Name="FactionTraitExpensiveCities3"/>
+  </FactionTrait>
+
+  <!-- Large Purse -->
+  <FactionTrait Name="FactionTraitLargepurse1"            SubCategory="CustomTrait" Family="Economy" Custom="true" Cost="12">
+    <SimulationDescriptorReference Name="FactionTraitLargepurse1"/>
+  </FactionTrait>
+
+  <!-- Infrastructure Doctrine 1-3 -->
+  <FactionTrait Name="FactionTraitInfrastructureDoctrine1"            SubCategory="CustomTrait" Family="Economy" Root="FactionTraitInfrastructureDoctrine1"     Level="1" Custom="true" Cost="10">
+    <SimulationDescriptorReference Name="FactionTraitInfrastructureDoctrine1"/>
+  </FactionTrait>
+  <FactionTrait Name="FactionTraitInfrastructureDoctrine2"            SubCategory="CustomTrait" Family="Economy" Root="FactionTraitInfrastructureDoctrine1"     Level="2" Custom="true" Cost="20">
+    <SimulationDescriptorReference Name="FactionTraitInfrastructureDoctrine2"/>
+  </FactionTrait>
+  <FactionTrait Name="FactionTraitInfrastructureDoctrine3"            SubCategory="CustomTrait" Family="Economy" Root="FactionTraitInfrastructureDoctrine1"     Level="3" Custom="true" Cost="30">
+    <SimulationDescriptorReference Name="FactionTraitInfrastructureDoctrine3"/>
+  </FactionTrait>
+
+  
+  
+
+  <!-- Master Extraction 1-2 -->
+  <FactionTrait Name="FactionTraitMasterExtraction1"            SubCategory="CustomTrait" Family="Economy" Root="FactionTraitMasterExtraction1"     Level="1" Custom="true" Cost="12">
+    <SimulationDescriptorReference Name="FactionTraitMasterExtraction1"/>
+  </FactionTrait>
+  <FactionTrait Name="FactionTraitMasterExtraction2"            SubCategory="CustomTrait" Family="Economy" Root="FactionTraitMasterExtraction1"     Level="2" Custom="true" Cost="25">
+    <SimulationDescriptorReference Name="FactionTraitMasterExtraction2"/>
+  </FactionTrait>
+
+  <!-- Master of Luxury 1-2 -->
+  <FactionTrait Name="FactionTraitMasterOfLuxury1"            SubCategory="CustomTrait" Family="Economy" Root="FactionTraitMasterOfLuxury1"     Level="1" Custom="true" Cost="12">
+    <SimulationDescriptorReference Name="FactionTraitMasterOfLuxury1"/>
+  </FactionTrait>
+  <FactionTrait Name="FactionTraitMasterOfLuxury2"            SubCategory="CustomTrait" Family="Economy" Root="FactionTraitMasterOfLuxury1"     Level="2" Custom="true" Cost="25">
+    <SimulationDescriptorReference Name="FactionTraitMasterOfLuxury2"/>
+  </FactionTrait>
+
+
+
+  
+  	<!-- MILITARY TRAITS -->
+  <!-- Resiliant 1-2 -->
+  <FactionTrait Name="FactionTraitResilitantHealth1"                 SubCategory="CustomTrait" Family="Military" Root="FactionTraitResilitantHealth1"           Level="1" Custom="true" Cost="10">
+        <Prerequisites>!FactionTraitArmy2Level1,!FactionTraitArmy2Level2</Prerequisites>
+    <SimulationDescriptorReference Name="FactionTraitResilitantHealth1"/>
+  </FactionTrait>
+  <FactionTrait Name="FactionTraitResilitantHealth2"                 SubCategory="CustomTrait" Family="Military" Root="FactionTraitResilitantHealth1"           Level="2" Custom="true" Cost="20">
+        <Prerequisites>!FactionTraitArmy2Level1,!FactionTraitArmy2Level2</Prerequisites>
+    <SimulationDescriptorReference Name="FactionTraitResilitantHealth2"/>
+  </FactionTrait>
+  <!-- Fragile Health -->
+  <FactionTrait Name="FactionTraitArmy2Level1"                 SubCategory="CustomTrait" Family="Military" Root="FactionTraitArmy2"           Level="1" Custom="true" Cost="-5">
+        <Prerequisites>!FactionTraitResilitantHealth1,!FactionTraitResilitantHealth2</Prerequisites>
+    <SimulationDescriptorReference Name="FactionTraitArmy2Level1"/>
+  </FactionTrait>
+  <FactionTrait Name="FactionTraitArmy2Level2"                 SubCategory="CustomTrait" Family="Military" Root="FactionTraitArmy2"           Level="2" Custom="true" Cost="-10">
+        <Prerequisites>!FactionTraitResilitantHealth1,!FactionTraitResilitantHealth2</Prerequisites>
+    <SimulationDescriptorReference Name="FactionTraitArmy2Level2"/>
+  </FactionTrait>
+
+  <!-- Clarion Call 1-2 -->
+  <FactionTrait Name="FactionTraitClarionCall1"                 SubCategory="CustomTrait" Family="Military" Root="FactionTraitClarionCall1"           Level="1" Custom="true" Cost="8">
+    <SimulationDescriptorReference Name="FactionTraitClarionCall1"/>
+  </FactionTrait>
+  <FactionTrait Name="FactionTraitClarionCall2"                 SubCategory="CustomTrait" Family="Military" Root="FactionTraitClarionCall1"           Level="2" Custom="true" Cost="16">
+    <SimulationDescriptorReference Name="FactionTraitClarionCall2"/>
+  </FactionTrait>
+
+  <!-- Disregard of Life 1-3 -->
+  <FactionTrait Name="FactionTraitDisregardForLife1"                 SubCategory="CustomTrait" Family="Military" Root="FactionTraitDisregardForLife1"           Level="1" Custom="true" Cost="10">
+    <SimulationDescriptorReference Name="FactionTraitDisregardForLife1"/>
+  </FactionTrait>
+  <FactionTrait Name="FactionTraitDisregardForLife2"                 SubCategory="CustomTrait" Family="Military" Root="FactionTraitDisregardForLife1"           Level="2" Custom="true" Cost="20">
+    <SimulationDescriptorReference Name="FactionTraitDisregardForLife2"/>
+  </FactionTrait>
+  <FactionTrait Name="FactionTraitDisregardForLife3"                 SubCategory="CustomTrait" Family="Military" Root="FactionTraitDisregardForLife1"           Level="3" Custom="true" Cost="35">
+    <SimulationDescriptorReference Name="FactionTraitDisregardForLife3"/>
+  </FactionTrait>
+
+  <!-- Military Doctrine 1-3 -->
+  <FactionTrait Name="FactionTraitMilitaryDoctrine1"            SubCategory="CustomTrait" Family="Military" Root="FactionTraitMilitaryDoctrine1"     Level="1" Custom="true" Cost="5">
+    <SimulationDescriptorReference Name="FactionTraitMilitaryDoctrine1"/>
+  </FactionTrait>
+  <FactionTrait Name="FactionTraitMilitaryDoctrine2"            SubCategory="CustomTrait" Family="Military" Root="FactionTraitMilitaryDoctrine1"     Level="2" Custom="true" Cost="15">
+    <SimulationDescriptorReference Name="FactionTraitMilitaryDoctrine2"/>
+  </FactionTrait>
+  <FactionTrait Name="FactionTraitMilitaryDoctrine3"            SubCategory="CustomTrait" Family="Military" Root="FactionTraitMilitaryDoctrine1"     Level="3" Custom="true" Cost="30">
+    <SimulationDescriptorReference Name="FactionTraitMilitaryDoctrine3"/>
+  </FactionTrait>
+
+
+		<!-- NAVAL MILITARY TRAITS -->
+    <!-- Expert Shipwrights 1-2 -->
+  <FactionTrait Name="FactionTraitExpertShipwrights1" SubCategory="CustomTrait" Family="Military" Root="FactionTraitExpertShipwrights1" Level="1" Custom="true" Cost="8">
+    <SimulationDescriptorReference Name="FactionTraitExpertShipwrights1"/>
+  </FactionTrait>
+
+  <FactionTrait Name="FactionTraitExpertShipwrights2" SubCategory="CustomTrait" Family="Military" Root="FactionTraitExpertShipwrights1" Level="2" Custom="true" Cost="20">
+    <SimulationDescriptorReference Name="FactionTraitExpertShipwrights2"/>
+  </FactionTrait>
+  
+    <!-- Naval Offence 1-3 -->
+  <FactionTrait Name="FactionTraitNavalOffence1" SubCategory="CustomTrait" Family="Military" Root="FactionTraitNavalOffence1" Level="1"  Custom="true" Cost="5">
+    <SimulationDescriptorReference Name="FactionTraitNavalOffence1"/>
+  </FactionTrait>
+
+  <FactionTrait Name="FactionTraitNavalOffence2" SubCategory="CustomTrait" Family="Military" Root="FactionTraitNavalOffence1" Level="2"  Custom="true" Cost="11">
+    <SimulationDescriptorReference Name="FactionTraitNavalOffence2"/>
+  </FactionTrait>
+  
+   <FactionTrait Name="FactionTraitNavalOffence3" SubCategory="CustomTrait" Family="Military" Root="FactionTraitNavalOffence1" Level="3"  Custom="true" Cost="20">
+    <SimulationDescriptorReference Name="FactionTraitNavalOffence3"/>
+  </FactionTrait>
+  
+      <!-- Naval Defence 1-3 -->
+  <FactionTrait Name="FactionTraitNavalDefence1" SubCategory="CustomTrait" Family="Military" Root="FactionTraitNavalDefence1" Level="1"  Custom="true" Cost="5">
+    <SimulationDescriptorReference Name="FactionTraitNavalDefence1"/>
+  </FactionTrait>
+
+  <FactionTrait Name="FactionTraitNavalDefence2" SubCategory="CustomTrait" Family="Military" Root="FactionTraitNavalDefence1" Level="2"  Custom="true" Cost="11">
+    <SimulationDescriptorReference Name="FactionTraitNavalDefence2"/>
+  </FactionTrait>
+  
+   <FactionTrait Name="FactionTraitNavalDefence3" SubCategory="CustomTrait" Family="Military" Root="FactionTraitNavalDefence1" Level="3"  Custom="true" Cost="20">
+    <SimulationDescriptorReference Name="FactionTraitNavalDefence3"/>
+  </FactionTrait>
+
+     <!-- Seafarers -->
+  <FactionTrait Name="FactionTraitSeafarers1" SubCategory="CustomTrait" Family="Military"    Custom="true" Cost="3">
+    <SimulationDescriptorReference Name="FactionTraitSeafarers1"/>
+  </FactionTrait>
+</Datatable>

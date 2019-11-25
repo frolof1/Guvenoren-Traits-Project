@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <RuntimeModule Name="GuvTraits" Type="Extension">
+    <Tags>MajorFactions, Improvements</Tags>
+    <Author>Captain Cobbs</Author>
+    <Homepage></Homepage>
+    <Title>Guvenoren Faction Traits</Title>
+	<Version Major="1" Minor="0" Revision="0" />
+    <Description></Description>
+	<PreviewImageFile>ModIcon.png</PreviewImageFile>
+    <ReleaseNotes></ReleaseNotes>
+      <Plugins>
+        <DatabasePlugin DataType="Amplitude.Unity.Simulation.SimulationDescriptor, Assembly-CSharp-firstpass">
+          <FilePath>Simulation/SimulationDescriptors[*].xml</FilePath>
+        </DatabasePlugin>
+        <DatabasePlugin DataType="FactionTrait, Assembly-CSharp">
+          <FilePath>Simulation/FactionTraits[*].xml</FilePath>
+        </DatabasePlugin>
+        <DatabasePlugin DataType="Amplitude.Unity.Gui.GuiElement, Assembly-CSharp-firstpass">
+          <ExtraTypes>
+            <ExtraType DataType="Amplitude.Unity.Gui.ExtendedGuiElement, Assembly-CSharp-firstpass" />
+          </ExtraTypes>
+          <FilePath>Gui/GuiElements[*].xml</FilePath>
+        </DatabasePlugin>
+        <DatabasePlugin DataType="DepartmentOfIndustry+ConstructibleElement, Assembly-CSharp">
+          <ExtraTypes>
+            <ExtraType DataType="CoastalDistrictImprovementDefinition, Assembly-CSharp"/>
+          </ExtraTypes>
+          <FilePath>Simulation/DepartmentOfIndustry+Constructibles.xml</FilePath>
+        </DatabasePlugin>
+        <LocalizationPlugin>
+          <Directory>Localization</Directory>
+        </LocalizationPlugin>
+      </Plugins>
+    </RuntimeModule>
+</Datatable>

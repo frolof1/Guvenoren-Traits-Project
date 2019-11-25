@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <GuiElement Name="DistrictImprovementDocks1Tech">
+    <Title>%DistrictImprovementDocksTitle</Title>
+    <Description>%DistrictImprovementDocksDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Gui/AtlasedBitmaps/Improvements/Empire/TechnologyDocksSmall" />
+      <Icon Size="Large" Path="Gui/DynamicBitmaps/Improvements/Empire/TechnologyDocksLarge" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="DistrictImprovementDocks2Tech">
+    <Title>%DistrictImprovementDocksTitle</Title>
+    <Description>%DistrictImprovementDocksDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Gui/AtlasedBitmaps/Improvements/Empire/TechnologyDocksSmall" />
+      <Icon Size="Large" Path="Gui/DynamicBitmaps/Improvements/Empire/TechnologyDocksLarge" />
+    </Icons>
+  </GuiElement>
+</Datatable>

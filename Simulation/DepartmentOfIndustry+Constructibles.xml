@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <!-- Cargo docks -->
+  <CoastalDistrictImprovementDefinition Name="DistrictImprovementDocks1Tech" SubCategory="SubCategoryDistrict" DistrictDescriptorSuffix="Docks" ResourceOnMigration="FreeDocks">
+    <CostReductionReference Name="DistrictImprovementWithAIBonus"/>
+    <CustomCost ResourceName="Production">700</CustomCost>
+    <SimulationDescriptorReference    Name="OnlyOnePerCity" />
+    <SimulationDescriptorReference    Name="DocksLocation" />
+    <SimulationDescriptorReference    Name="OceanRoadCreation" />
+    <SimulationDescriptorReference    Name="DistrictImprovementDocksDescriptor" />
+    <SimulationDescriptorReference    Name="DistrictImprovementDocks" />
+    <SimulationDescriptorReference    Name="EmbarkDisembarkBonus" />
+    <!--<InterpreterPrerequisite  Inverted="false" Flags="Prerequisite,Discard">$Property(FreeDocksStock) le 0</InterpreterPrerequisite>-->
+    <TechnologyPrerequisite  Inverted="false" Flags="Prerequisite,Discard,AIEconomicRatio">TechnologyDocks</TechnologyPrerequisite>
+    <PathPrerequisite        Inverted="true"  Flags="Prerequisite,Siege,AIEconomicRatio">ClassCity,CityStatusSiege</PathPrerequisite>
+    <PathPrerequisite        Inverted="false" Flags="Prerequisite,Discard,AIEconomicRatio">.../ClassEmpire,FactionTraitCoastBound</PathPrerequisite>
+    <PathPrerequisite        Inverted="true"  Flags="Prerequisite,Discard">ClassCity/DistrictImprovementDocks1Tech</PathPrerequisite>
+    <PathPrerequisite        Inverted="false" Flags="Prerequisite">ClassCity/TerrainTagSeafaringUnitCreation,!DistrictProxyCampExploitation</PathPrerequisite>
+    <WorldPlacementTags Match="Any">TerrainTypeCoastalWaters;TerrainTypeInlandWater;TerrainTypeOcean</WorldPlacementTags>
+  </CoastalDistrictImprovementDefinition>
+
+  <!-- Cargo docks -->
+  <CoastalDistrictImprovementDefinition Name="DistrictImprovementDocks2Tech" SubCategory="SubCategoryDistrict" DistrictDescriptorSuffix="Docks" ResourceOnMigration="FreeDocks">
+    <CostReductionReference Name="DistrictImprovementWithAIBonus"/>
+    <CustomCost ResourceName="Production">700</CustomCost>
+    <SimulationDescriptorReference    Name="OnlyOnePerCity" />
+    <SimulationDescriptorReference    Name="DocksLocation" />
+    <SimulationDescriptorReference    Name="OceanRoadCreation" />
+    <SimulationDescriptorReference    Name="DistrictImprovementDocksDescriptor" />
+    <SimulationDescriptorReference    Name="DistrictImprovementDocks" />
+    <SimulationDescriptorReference    Name="EmbarkDisembarkBonus" />
+    <!--<InterpreterPrerequisite  Inverted="false" Flags="Prerequisite,Discard">$Property(FreeDocksStock) le 0</InterpreterPrerequisite>-->
+    <TechnologyPrerequisite  Inverted="false" Flags="Prerequisite,Discard,AIEconomicRatio">TechnologyDocks</TechnologyPrerequisite>
+    <PathPrerequisite        Inverted="true"  Flags="Prerequisite,Siege,AIEconomicRatio">ClassCity,CityStatusSiege</PathPrerequisite>
+    <PathPrerequisite        Inverted="false" Flags="Prerequisite,Discard,AIEconomicRatio">.../ClassEmpire,FactionTraitCoastBound</PathPrerequisite>
+    <PathPrerequisite        Inverted="true"  Flags="Prerequisite,Discard">ClassCity/DistrictImprovementDocks2Tech</PathPrerequisite>
+    <PathPrerequisite        Inverted="false" Flags="Prerequisite">ClassCity/TerrainTagSeafaringUnitCreation,!DistrictProxyCampExploitation</PathPrerequisite>
+    <WorldPlacementTags Match="Any">TerrainTypeCoastalWaters;TerrainTypeInlandWater;TerrainTypeOcean</WorldPlacementTags>
+  </CoastalDistrictImprovementDefinition>
+
+  <CoastalDistrictImprovementDefinition Name="DistrictImprovementDocks"                     SubCategory="SubCategoryDistrict" DistrictDescriptorSuffix="Docks" ResourceOnMigration="FreeDocks">
+    <CostReductionReference Name="DistrictImprovementWithAIBonus"/>
+    <CustomCost ResourceName="Production">600</CustomCost>
+    <SimulationDescriptorReference    Name="OnlyOnePerCity" />
+    <SimulationDescriptorReference    Name="DocksLocation" />
+    <SimulationDescriptorReference    Name="OceanRoadCreation" />
+    <SimulationDescriptorReference    Name="DistrictImprovementDocksDescriptor" />
+    <SimulationDescriptorReference    Name="DistrictImprovementDocks" />
+    <SimulationDescriptorReference    Name="EmbarkDisembarkBonus" />
+    <InterpreterPrerequisite  Inverted="false" Flags="Prerequisite,Discard">$Property(FreeDocksStock) le 0</InterpreterPrerequisite>
+    <TechnologyPrerequisite  Inverted="false" Flags="Prerequisite,Discard,AIEconomicRatio">TechnologyDocks</TechnologyPrerequisite>
+    <PathPrerequisite        Inverted="true"  Flags="Prerequisite,Siege,AIEconomicRatio">ClassCity,CityStatusSiege</PathPrerequisite>
+    <PathPrerequisite        Inverted="false" Flags="Prerequisite,Discard,AIEconomicRatio">.../ClassEmpire,!FactionTraitCoastBound</PathPrerequisite>
+    <PathPrerequisite        Inverted="true"  Flags="Prerequisite,Discard">ClassCity/DistrictImprovementDocks</PathPrerequisite>
+    <PathPrerequisite        Inverted="false" Flags="Prerequisite">ClassCity/TerrainTagSeafaringUnitCreation,!DistrictProxyCampExploitation</PathPrerequisite>
+    <!-- Match="Any" ... improvement is accepted if anyone of the tags does math -->
+    <!-- Match="All" ... improvement is accepted if all the tags do math -->
+    <WorldPlacementTags Match="Any">TerrainTypeCoastalWaters;TerrainTypeInlandWater;TerrainTypeOcean</WorldPlacementTags>
+  </CoastalDistrictImprovementDefinition>
+
+</Datatable>

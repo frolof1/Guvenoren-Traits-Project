@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+							<!-- MAJOR TRAITS -->
+        <!-- Endless Ruination -->
+  <LocalizationPair Name="%FactionTraitTerribleDustGuvTitle">Dust Ignorant</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitTerribleDustGuvDescription">GUV: TO BE USED AS AFFINITY/MAJOR TRAIT!
+"The very concept of dust sounds just bizarre, but as such we'll take only what we bother keeping."
+ 
+Generate no #FFD768#\7703\#REVERT# from Terrain and severely reduces income from #FFD768#\7703\#REVERT# from Cities. However, City Upkeep is severely reduced and armies are somewhat cheaper to maintain.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitTerribleDustGuvlylTooltip">0 #FFD768#\7703\#REVERT# from Any Terrain and Districts</LocalizationPair>
+
+							<!-- DIPLOMACY TRAITS -->
+        <!-- War is All 1-2 -->
+  <LocalizationPair Name="%FactionTraitWarIsAll1Title">There is only War</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitWarIsAll1Description">Increases City Approval for each empire that is at War during the 41st millenium.</LocalizationPair>
+        <!-- Conservative -->
+  <LocalizationPair Name="%FactionTraitConservative1Title">Conservative</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitConservative1Description">No longer able to assimilate Minor Factions.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitConservative1lylTooltip">Disables assimilation of Minor Factions on Empire</LocalizationPair>
+        <!-- Forced Diversion -->
+  <LocalizationPair Name="%FactionTraitForcedDiversion1Title">Forced Diversion</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitForcedDiversion1Description">Able to assimilate All Minor Factions on the get go.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitForcedDiversion1Tooltip">All assimilation Slots Unlocked on Empire</LocalizationPair>
+  
+							<!-- ECONOMIC TRAITS -->
+        <!-- Adept Science 1-3 -->
+  <LocalizationPair Name="%FactionTraitAdeptScience1Title">Colleges</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitAdeptScience1Description">Generates additional Science per City.</LocalizationPair>
+        <!-- Terrible Science 1-3 -->
+  <LocalizationPair Name="%FactionTraitTerribleScience1Title">Uneducated</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitTerribleScience1Description">Generates less Science per City.</LocalizationPair>
+        <!-- Adept Food 1-3 -->
+  <LocalizationPair Name="%FactionTraitAdeptFood1Title">Domesticated Specimens</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitAdeptFood1Description">Generates additional Food per City.</LocalizationPair>
+        <!-- Terrible Food 1-3 -->
+  <LocalizationPair Name="%FactionTraitTerribleFood1Title">Only Horticulture</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitTerribleFood1Description">Generates less Food per City.</LocalizationPair>
+      <!-- Adept Industry 1-3 -->
+  <LocalizationPair Name="%FactionTraitAdeptIndustry1Title">Renowned Workers</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitAdeptIndustry1Description">Generates additional Industry per City.</LocalizationPair>
+      <!-- Terrible Industry 1-3 -->
+  <LocalizationPair Name="%FactionTraitTerribleIndustry1Title">Slackers</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitTerribleIndustry1Description">Generates less Industry per City.</LocalizationPair>
+        <!-- Adept Influence 1-3 -->
+  <LocalizationPair Name="%FactionTraitAdeptInfluence1Title">Arch Diplomats</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitAdeptInfluence1Description">Generates additional Influence per City.</LocalizationPair>
+      <!-- Terrible Influence 1-3 -->
+  <LocalizationPair Name="%FactionTraitTerribleInfluence1Title">Uncultured</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitTerribleInfluence1Description">Generates less Influence per City.</LocalizationPair>
+  
+      <!-- Food per Pop -->
+  <LocalizationPair Name="%FactionTraitFoodPerPop1Title">Grazier</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitFoodPerPop1Description">Generates additional Food per Worker on each City.</LocalizationPair>
+      <!-- Industry per Pop -->
+  <LocalizationPair Name="%FactionTraitIndustryPerPop1Title">Architect</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitIndustryPerPop1Description">Generates additional Industry per Worker on each City.</LocalizationPair>
+      <!-- Science per Pop -->
+  <LocalizationPair Name="%FactionTraitSciencePerPop1Title">Educator</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitSciencePerPop1Description">Generates additional Science per Worker on each City.</LocalizationPair>
+      <!-- Influence per Pop -->
+  <LocalizationPair Name="%FactionTraitInfluencePerPop1Title">Chancellor</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitInfluencePerPop1Description">Generates additional Influence per Worker on each City.</LocalizationPair>
+  
+      <!-- Water Works -->
+  <LocalizationPair Name="%FactionTraitWaterWorksTitle">Harbour Labour</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitWaterWorksDescription">Gives #FF926D#\7701\#REVERT# on Water terrain.</LocalizationPair>
+      <!-- Fish Diet -->
+  <LocalizationPair Name="%FactionTraitFishDietTitle">Fish Diet</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitFishDietDescription">Gives additional #CFE14F#\7700\#REVERT# on Water terrain.</LocalizationPair>
+
+      <!-- Forced Labour -->
+  <LocalizationPair Name="%FactionTraitIndustryPerVillage1Title">Forced Labour</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitIndustryPerVillage1Description">Gives #FF926D#\7701\#REVERT# per Worker per Pacificed Villages on Cities.</LocalizationPair>
+      <!-- Test Subjects -->
+  <LocalizationPair Name="%FactionTraitSciencePerVillage1Title">Test Subjects</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitSciencePerVillage1Description">Gives #59DEFF#\7702\#REVERT# per Worker per Pacificed Villages on Cities.</LocalizationPair>
+      <!-- Dust Extraction -->
+  <LocalizationPair Name="%FactionTraitDustPerVillage1Title">Slave Trade</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitDustPerVillage1Description">Gives #FFD768#\7703\#REVERT# per Worker per Pacificed Villages on Cities.</LocalizationPair>
+      <!-- Famous Profile -->
+  <LocalizationPair Name="%FactionTraitInfluencePerVillage1Title">Famous Profile</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitInfluencePerVillage1Description">Gives #8A7DFF#\7704\#REVERT# per Worker per Pacificed Villages on Cities.</LocalizationPair>
+
+      <!-- Snow Days -->
+  <LocalizationPair Name="%FactionTraitSnowDaysTitle">Snow Days</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitSnowDaysDescription">Gives #FF926D#\7701\#REVERT# on Snow terrain.</LocalizationPair>
+      <!-- Magma Cooling -->
+  <LocalizationPair Name="%FactionTraitMagmaBoiiTitle">Magma Thrive</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMagmaBoiiDescription">Gives #F0A1FF#\7706\#REVERT# on Volcanic terrain and #CFE14F#\7700\#REVERT# if you have the "Born of Ash" trait.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMagmaBoiiFoodzTooltip">+1 #CFE14F#\7700\#REVERT# if Born of Ash on Volcanic Terrain
++2 #F0A1FF#\7706\#REVERT# on Volcanic Terrain</LocalizationPair>
+
+      <!-- Just Better Really -->
+  <LocalizationPair Name="%FactionTraitJustBetterBoiiTitle">Just Better Really</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitJustBetterBoiiDescription">Increases max level on Districts on Cities.</LocalizationPair>
+      <!-- Ghetto -->
+  <LocalizationPair Name="%FactionTraitGhettoBoiiTitle">Ghetto</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitGhettoBoiiDescription">Decreases max level on Districts on Cities.</LocalizationPair>
+
+        <!-- Coast Bound -->
+  <LocalizationPair Name="%FactionTraitCoastBoundTitle">Coast Bound</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitCoastBoundDescription">Allows you to build 1 addition cargo docks.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitCoastBoundboiiTooltip">+1 LIMIT TO CARGO DOCKS ON CITIES</LocalizationPair>
+        <!-- Endless Ruination -->
+  <LocalizationPair Name="%FactionTraitEndlessRuinationTitle">Endless Ruination</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitEndlessRuinationDescription">Gives #FF926D#\7701\#REVERT# on terrain with Ruins but removes #CFE14F#\7700\#REVERT#, #59DEFF#\7702\#REVERT#, #FFD768#\7703\#REVERT# and #8A7DFF#\7704\#REVERT# from Ruins as well.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitEndlessRuinationFIDSITooltip">+6 #FF926D#\7701\#REVERT# on terrain with Ruins
+0 #CFE14F#\7700\#REVERT#, #59DEFF#\7702\#REVERT#, #FFD768#\7703\#REVERT# and #8A7DFF#\7704\#REVERT# on Terrain with Ruins</LocalizationPair>
+        <!-- Endless Ruination -->
+  <LocalizationPair Name="%FactionTraitDesertKingdomTitle">Desert Kingdom</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitDesertKingdomDescription">Gives #FF926D#\7701\#REVERT# and #CFE14F#\7700\#REVERT# on Desert and Sand Terrain, but Reduces #CFE14F#\7700\#REVERT# and #FF926D#\7701\#REVERT# on any other terrain that is not Sand or Desert.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitDesertKingdomFIDSITooltip">+2 #FF926D#\7701\#REVERT# on SAND AND Desert Terrain
++2 #CFE14F#\7700\#REVERT# on SAND AND Desert Terrain
+-1 #CFE14F#\7700\#REVERT# ON NON-SAND AND DESERT TERRAIN
+-1 #FF926D#\7701\#REVERT# ON NON-SAND AND DESERT TERRAIN</LocalizationPair>
+        <!-- Content 1-2 -->
+  <LocalizationPair Name="%FactionTraitContent1Title">Content Population</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitContent1Description">Generates additional Approval on Cities.</LocalizationPair>
+  
+        <!-- Cheap Cities 1-2 -->
+  <LocalizationPair Name="%FactionTraitCheapCities1Title">Cheap Cities</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitCheapCities1Description">Reduces #FFD768#\7703\#REVERT# cost from City Upkeep.</LocalizationPair>
+        <!-- Expensive Cities 1-2 -->
+  <LocalizationPair Name="%FactionTraitExpensiveCities1Title">Expensive Cities</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitExpensiveCities1Description">Increases #FFD768#\7703\#REVERT# cost from City Upkeep.</LocalizationPair>
+ 
+         <!-- Master Extraction 1-2 -->
+  <LocalizationPair Name="%FactionTraitMasterExtraction1Title">Master Extraction</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMasterExtraction1Description">Drastically increases Strategic Extraction amount.</LocalizationPair>
+        <!-- Master of Luxury 1-2 -->
+  <LocalizationPair Name="%FactionTraitMasterOfLuxury1Title">Master of Luxury</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMasterOfLuxury1Description">Drastically increases Luxury Extraction amount.</LocalizationPair>
+
+         <!-- Large Purse -->
+  <LocalizationPair Name="%FactionTraitLargepurse1Title">Large Purse</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitLargepurse1Description">Reduces Building and Unit Buyout cost.</LocalizationPair>
+         <!-- Infrastructure Doctrine 1-3 -->
+  <LocalizationPair Name="%FactionTraitInfrastructureDoctrine1Title">Infrastructure Doctrine</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitInfrastructureDoctrine1Description">Reduces Building production cost.</LocalizationPair>
+
+
+
+
+							<!-- MILITARY TRAITS -->  
+      <!-- Resiliant 1-2 -->
+  <LocalizationPair Name="%FactionTraitResilitantHealth1Title">Resiliant</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitResilitantHealth1Description">Gives a Health boost to Units.</LocalizationPair>
+      <!-- Homesick -->
+  <LocalizationPair Name="%FactionTraitHomesick1Title">Homesick</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitHomesick1Description">Increases Approval penalties caused by empire expansion.</LocalizationPair>
+        <!-- Clarion Call 1-2-->
+  <LocalizationPair Name="%FactionTraitClarionCall1Title">Clarion Call</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitClarionCall1Description">Reduces Hero Upkeep cost.</LocalizationPair>
+        <!-- Disregard of Life 1-3 -->
+  <LocalizationPair Name="%FactionTraitDisregardForLife1Title">Disregard of Life</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitDisregardForLife1Description">Reduces Military and Hero Upkeep costs.</LocalizationPair>
+		 <!-- Military Doctrine 1-3 -->
+  <LocalizationPair Name="%FactionTraitMilitaryDoctrine1Title">Military Doctrine</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMilitaryDoctrine1Description">Reduces Unit production cost.</LocalizationPair>
+      <!-- Shipwright 1-2 -->
+  <LocalizationPair Name="%FactionTraitExpertShipwrights1Title">Expert Shipwrights</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitExpertShipwrights1Description">Decreases Naval Units production cost.</LocalizationPair>
+      <!-- Naval Offence 1-3 -->
+  <LocalizationPair Name="%FactionTraitNavalOffence1Title">Naval Offense</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitNavalOffence1Description">Increases Attack on Naval Units.</LocalizationPair>
+      <!-- Seafarers -->
+  <LocalizationPair Name="%FactionTraitNavalDefence1Title">Naval Defense</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitNavalDefence1Description">Increases Defense on Naval Units.</LocalizationPair>
+      <!-- Seafarers -->
+  <LocalizationPair Name="%FactionTraitSeafarers1Title">Seafarers</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitSeafarers1Description">Gives a movement bonus on Water terrain on Units.</LocalizationPair>
+</Datatable>

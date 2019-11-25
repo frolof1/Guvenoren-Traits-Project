@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <!-- MAJOR TRAITS -->
+  <!-- Dust Ignorant -->
+  <ExtendedGuiElement Name="FactionTraitTerribleDustGuv">
+    <Title>%FactionTraitTerribleDustGuvTitle</Title>
+    <Description>%FactionTraitTerribleDustGuvDescription</Description>
+    <TooltipElement>
+      <EffectOverride>%FactionTraitTerribleDustGuvlylTooltip</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
+
+  <!-- DIPLOMACY TRAITS -->
+  <!-- War is All 1-2 -->
+  <GuiElement Name="FactionTraitWarIsAll1">
+    <Title>%FactionTraitWarIsAll1Title</Title>
+    <Description>%FactionTraitWarIsAll1Description</Description>
+  </GuiElement>
+
+  <GuiElement Name="FactionTraitWarIsAll2">
+    <Title>%FactionTraitWarIsAll1Title</Title>
+    <Description>%FactionTraitWarIsAll1Description</Description>
+  </GuiElement>
+
+  <!-- Conservative -->
+  <ExtendedGuiElement Name="FactionTraitConservative1">
+    <Title>%FactionTraitConservative1Title</Title>
+    <Description>%FactionTraitConservative1Description</Description>
+    <TooltipElement>
+      <EffectOverride>%FactionTraitConservative1lylTooltip</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
+  
+  <!-- Forced Diversion -->
+  <ExtendedGuiElement Name="FactionTraitForcedDiversion1">
+    <Title>%FactionTraitForcedDiversion1Title</Title>
+    <Description>%FactionTraitForcedDiversion1Description</Description>
+    <TooltipElement>
+      <EffectOverride>%FactionTraitForcedDiversion1Tooltip</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
+  
+
+  <!-- ECONOMIC TRAITS -->
+  <!-- Adept Science 1-3 -->
+  <GuiElement Name="FactionTraitAdeptScience1">
+    <Title>%FactionTraitAdeptScience1Title</Title>
+    <Description>%FactionTraitAdeptScience1Description</Description>
+  </GuiElement>
+
+  <GuiElement Name="FactionTraitAdeptScience2">
+    <Title>%FactionTraitAdeptScience1Title</Title>
+    <Description>%FactionTraitAdeptScience1Description</Description>
+  </GuiElement>
+
+  <GuiElement Name="FactionTraitAdeptScience3">
+    <Title>%FactionTraitAdeptScience1Title</Title>
+    <Description>%FactionTraitAdeptScience1Description</Description>
+  </GuiElement>
+
+  <!-- Terrible Science 1-3 -->
+  <GuiElement Name="FactionTraitTerribleScience1">
+    <Title>%FactionTraitTerribleScience1Title</Title>
+    <Description>%FactionTraitTerribleScience1Description</Description>
+  </GuiElement>
+
+  <GuiElement Name="FactionTraitTerribleScience2">
+    <Title>%FactionTraitTerribleScience1Title</Title>
+    <Description>%FactionTraitTerribleScience1Description</Description>
+  </GuiElement>
+
+  <GuiElement Name="FactionTraitTerribleScience3">
+    <Title>%FactionTraitTerribleScience1Title</Title>
+    <Description>%FactionTraitTerribleScience1Description</Description>
+  </GuiElement>
+
+  <!-- Adept Food 1-3 -->
+  <GuiElement Name="FactionTraitAdeptFood1">
+    <Title>%FactionTraitAdeptFood1Title</Title>
+    <Description>%FactionTraitAdeptFood1Description</Description>
+  </GuiElement>
+
+  <GuiElement Name="FactionTraitAdeptFood2">
+    <Title>%FactionTraitAdeptFood1Title</Title>
+    <Description>%FactionTraitAdeptFood1Description</Description>
+  </GuiElement>
+
+  <GuiElement Name="FactionTraitAdeptFood3">
+    <Title>%FactionTraitAdeptFood1Title</Title>
+    <Description>%FactionTraitAdeptFood1Description</Description>
+  </GuiElement>
+
+  <!-- Terrible Food 1-3 -->
+  <GuiElement Name="FactionTraitTerribleFood1">
+    <Title>%FactionTraitTerribleFood1Title</Title>
+    <Description>%FactionTraitTerribleFood1Description</Description>
+  </GuiElement>
+
+  <GuiElement Name="FactionTraitTerribleFood2">
+    <Title>%FactionTraitTerribleFood1Title</Title>
+    <Description>%FactionTraitTerribleFood1Description</Description>
+  </GuiElement>
+
+  <GuiElement Name="FactionTraitTerribleFood3">
+    <Title>%FactionTraitTerribleFood1Title</Title>
+    <Description>%FactionTraitTerribleFood1Description</Description>
+  </GuiElement>
+  
+    <!-- Adept Industry 1-3 -->
+  <GuiElement Name="FactionTraitAdeptIndustry1">
+    <Title>%FactionTraitAdeptIndustry1Title</Title>
+    <Description>%FactionTraitAdeptIndustry1Description</Description>
+  </GuiElement>
+
+  <GuiElement Name="FactionTraitAdeptIndustry2">
+    <Title>%FactionTraitAdeptIndustry1Title</Title>
+    <Description>%FactionTraitAdeptIndustry1Description</Description>
+  </GuiElement>
+
+  <GuiElement Name="FactionTraitAdeptIndustry3">
+    <Title>%FactionTraitAdeptIndustry1Title</Title>
+    <Description>%FactionTraitAdeptIndustry1Description</Description>
+  </GuiElement>
+  
+    <!-- Terrible Industry 1-3 -->
+  <GuiElement Name="FactionTraitTerribleIndustry1">
+    <Title>%FactionTraitTerribleIndustry1Title</Title>
+    <Description>%FactionTraitTerribleIndustry1Description</Description>
+  </GuiElement>
+
+  <GuiElement Name="FactionTraitTerribleIndustry2">
+    <Title>%FactionTraitTerribleIndustry1Title</Title>
+    <Description>%FactionTraitTerribleIndustry1Description</Description>
+  </GuiElement>
+
+  <GuiElement Name="FactionTraitTerribleIndustry3">
+    <Title>%FactionTraitTerribleIndustry1Title</Title>
+    <Description>%FactionTraitTerribleIndustry1Description</Description>
+  </GuiElement>
+  
+      <!-- Adept Influence 1-3 -->
+  <GuiElement Name="FactionTraitAdeptInfluence1">
+    <Title>%FactionTraitAdeptInfluence1Title</Title>
+    <Description>%FactionTraitAdeptInfluence1Description</Description>
+  </GuiElement>
+
+  <GuiElement Name="FactionTraitAdeptInfluence2">
+    <Title>%FactionTraitAdeptInfluence1Title</Title>
+    <Description>%FactionTraitAdeptInfluence1Description</Description>
+  </GuiElement>
+
+  <GuiElement Name="FactionTraitAdeptInfluence3">
+    <Title>%FactionTraitAdeptInfluence1Title</Title>
+    <Description>%FactionTraitAdeptInfluence1Description</Description>
+  </GuiElement>
+  
+    <!-- Terrible Influence 1-3 -->
+  <GuiElement Name="FactionTraitTerribleInfluence1">
+    <Title>%FactionTraitTerribleInfluence1Title</Title>
+    <Description>%FactionTraitTerribleInfluence1Description</Description>
+  </GuiElement>
+
+  <GuiElement Name="FactionTraitTerribleInfluence2">
+    <Title>%FactionTraitTerribleInfluence1Title</Title>
+    <Description>%FactionTraitTerribleInfluence1Description</Description>
+  </GuiElement>
+
+  <GuiElement Name="FactionTraitTerribleInfluence3">
+    <Title>%FactionTraitTerribleInfluence1Title</Title>
+    <Description>%FactionTraitTerribleInfluence1Description</Description>
+  </GuiElement>
+  
+  
+    <!-- Food per pop -->
+  <GuiElement Name="FactionTraitFoodPerPop1">
+    <Title>%FactionTraitFoodPerPop1Title</Title>
+    <Description>%FactionTraitFoodPerPop1Description</Description>
+  </GuiElement>
+  
+    <!-- Industry per pop -->
+  <GuiElement Name="FactionTraitIndustryPerPop1">
+    <Title>%FactionTraitIndustryPerPop1Title</Title>
+    <Description>%FactionTraitIndustryPerPop1Description</Description>
+  </GuiElement>
+  
+    <!-- Science per pop -->
+  <GuiElement Name="FactionTraitSciencePerPop1">
+    <Title>%FactionTraitSciencePerPop1Title</Title>
+    <Description>%FactionTraitSciencePerPop1Description</Description>
+  </GuiElement>
+  
+    <!-- Influence per pop -->
+  <GuiElement Name="FactionTraitInfluencePerPop1">
+    <Title>%FactionTraitInfluencePerPop1Title</Title>
+    <Description>%FactionTraitInfluencePerPop1Description</Description>
+  </GuiElement>
+
+
+    <!-- Industry per Village -->
+  <GuiElement Name="FactionTraitIndustryPerVillage1">
+    <Title>%FactionTraitIndustryPerVillage1Title</Title>
+    <Description>%FactionTraitIndustryPerVillage1Description</Description>
+  </GuiElement>
+
+    <!-- Science per Village -->
+  <GuiElement Name="FactionTraitSciencePerVillage1">
+    <Title>%FactionTraitSciencePerVillage1Title</Title>
+    <Description>%FactionTraitSciencePerVillage1Description</Description>
+  </GuiElement>
+  
+    <!-- Dust per Village -->
+  <GuiElement Name="FactionTraitDustPerVillage1">
+    <Title>%FactionTraitDustPerVillage1Title</Title>
+    <Description>%FactionTraitDustPerVillage1Description</Description>
+  </GuiElement>
+  
+    <!-- Influence per Village -->
+  <GuiElement Name="FactionTraitInfluencePerVillage1">
+    <Title>%FactionTraitInfluencePerVillage1Title</Title>
+    <Description>%FactionTraitInfluencePerVillage1Description</Description>
+  </GuiElement>
+
+
+    <!-- Water Works -->
+  <GuiElement Name="FactionTraitWaterWorks">
+    <Title>%FactionTraitWaterWorksTitle</Title>
+    <Description>%FactionTraitWaterWorksDescription</Description>
+  </GuiElement>
+  
+    <!-- Food Diet -->
+  <GuiElement Name="FactionTraitFishDiet">
+    <Title>%FactionTraitFishDietTitle</Title>
+    <Description>%FactionTraitFishDietDescription</Description>
+  </GuiElement>
+
+
+       <!-- Snow days -->
+  <GuiElement Name="FactionTraitSnowDays">
+    <Title>%FactionTraitSnowDaysTitle</Title>
+    <Description>%FactionTraitSnowDaysDescription</Description>
+  </GuiElement>
+  
+       <!-- Magma Cooling -->
+  <ExtendedGuiElement Name="FactionTraitMagmaBoii">
+    <Title>%FactionTraitMagmaBoiiTitle</Title>
+    <Description>%FactionTraitMagmaBoiiDescription</Description>
+    <TooltipElement>
+      <EffectOverride>%FactionTraitMagmaBoiiFoodzTooltip</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
+
+
+     <!-- Just Better Really -->
+  <GuiElement Name="FactionTraitJustBetterBoii1">
+    <Title>%FactionTraitJustBetterBoiiTitle</Title>
+    <Description>%FactionTraitJustBetterBoiiDescription</Description>
+  </GuiElement>
+  <GuiElement Name="FactionTraitJustBetterBoii2">
+    <Title>%FactionTraitJustBetterBoiiTitle</Title>
+    <Description>%FactionTraitJustBetterBoiiDescription</Description>
+  </GuiElement>
+
+     <!-- Ghetto -->
+  <GuiElement Name="FactionTraitGhettoBoii">
+    <Title>%FactionTraitGhettoBoiiTitle</Title>
+    <Description>%FactionTraitGhettoBoiiDescription</Description>
+  </GuiElement>
+
+     <!-- Endless Ruination -->
+  <ExtendedGuiElement Name="FactionTraitEndlessRuination">
+    <Title>%FactionTraitEndlessRuinationTitle</Title>
+    <Description>%FactionTraitEndlessRuinationDescription</Description>
+    <TooltipElement>
+      <EffectOverride>%FactionTraitEndlessRuinationFIDSITooltip</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
+  
+     <!-- Coast Bound -->
+  <ExtendedGuiElement Name="FactionTraitCoastBound">
+    <Title>%FactionTraitCoastBoundTitle</Title>
+    <Description>%FactionTraitCoastBoundDescription</Description>
+    <TooltipElement>
+      <EffectOverride>%FactionTraitCoastBoundboiiTooltip</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
+
+     <!-- Desert Kingdom -->
+  <ExtendedGuiElement Name="FactionTraitDesertKingdom">
+    <Title>%FactionTraitDesertKingdomTitle</Title>
+    <Description>%FactionTraitDesertKingdomDescription</Description>
+    <TooltipElement>
+      <EffectOverride>%FactionTraitDesertKingdomFIDSITooltip</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
+  
+    <!-- Content 1-2 -->
+  <GuiElement Name="FactionTraitContent1">
+    <Title>%FactionTraitContent1Title</Title>
+    <Description>%FactionTraitContent1Description</Description>
+  </GuiElement>
+  <GuiElement Name="FactionTraitContent2">
+    <Title>%FactionTraitContent1Title</Title>
+    <Description>%FactionTraitContent1Description</Description>
+  </GuiElement>
+  <GuiElement Name="FactionTraitContent3">
+    <Title>%FactionTraitContent1Title</Title>
+    <Description>%FactionTraitContent1Description</Description>
+  </GuiElement>
+  
+    <!-- Cheap Cities 1-3 -->
+  <GuiElement Name="FactionTraitCheapCities1">
+    <Title>%FactionTraitCheapCities1Title</Title>
+    <Description>%FactionTraitCheapCities1Description</Description>
+  </GuiElement>
+  <GuiElement Name="FactionTraitCheapCities2">
+    <Title>%FactionTraitCheapCities1Title</Title>
+    <Description>%FactionTraitCheapCities1Description</Description>
+  </GuiElement>
+  <GuiElement Name="FactionTraitCheapCities3">
+    <Title>%FactionTraitCheapCities1Title</Title>
+    <Description>%FactionTraitCheapCities1Description</Description>
+  </GuiElement>
+  
+    <!-- Expensive Cities 1-3 -->
+  <GuiElement Name="FactionTraitExpensiveCities1">
+    <Title>%FactionTraitExpensiveCities1Title</Title>
+    <Description>%FactionTraitExpensiveCities1Description</Description>
+  </GuiElement>
+  <GuiElement Name="FactionTraitExpensiveCities2">
+    <Title>%FactionTraitExpensiveCities1Title</Title>
+    <Description>%FactionTraitExpensiveCities1Description</Description>
+  </GuiElement>
+  <GuiElement Name="FactionTraitExpensiveCities3">
+    <Title>%FactionTraitExpensiveCities1Title</Title>
+    <Description>%FactionTraitExpensiveCities1Description</Description>
+  </GuiElement>
+
+
+  <!-- Infrastructure Doctrine 1-3 -->
+  <GuiElement Name="FactionTraitInfrastructureDoctrine1">
+    <Title>%FactionTraitInfrastructureDoctrine1Title</Title>
+    <Description>%FactionTraitInfrastructureDoctrine1Description</Description>
+  </GuiElement>
+  <GuiElement Name="FactionTraitInfrastructureDoctrine2">
+    <Title>%FactionTraitInfrastructureDoctrine1Title</Title>
+    <Description>%FactionTraitInfrastructureDoctrine1Description</Description>
+  </GuiElement>
+  <GuiElement Name="FactionTraitInfrastructureDoctrine3">
+    <Title>%FactionTraitInfrastructureDoctrine1Title</Title>
+    <Description>%FactionTraitInfrastructureDoctrine1Description</Description>
+  </GuiElement>
+
+  <!-- Large Purse -->
+  <GuiElement Name="FactionTraitLargepurse1">
+    <Title>%FactionTraitLargepurse1Title</Title>
+    <Description>%FactionTraitLargepurse1Description</Description>
+  </GuiElement>
+  
+  
+
+  <!-- Master Extraction 1-2 -->
+  <GuiElement Name="FactionTraitMasterExtraction1">
+    <Title>%FactionTraitMasterExtraction1Title</Title>
+    <Description>%FactionTraitMasterExtraction1Description</Description>
+  </GuiElement>
+  <GuiElement Name="FactionTraitMasterExtraction2">
+    <Title>%FactionTraitMasterExtraction1Title</Title>
+    <Description>%FactionTraitMasterExtraction1Description</Description>
+  </GuiElement>
+
+  <!-- Master Of Luxury 1-2 -->
+  <GuiElement Name="FactionTraitMasterOfLuxury1">
+    <Title>%FactionTraitMasterOfLuxury1Title</Title>
+    <Description>%FactionTraitMasterOfLuxury1Description</Description>
+  </GuiElement>
+  <GuiElement Name="FactionTraitMasterOfLuxury2">
+    <Title>%FactionTraitMasterOfLuxury1Title</Title>
+    <Description>%FactionTraitMasterOfLuxury1Description</Description>
+  </GuiElement>
+  
+  
+
+  <!-- MILITARY TRAITS -->
+      <!-- Resiliant 1-2 -->
+  <GuiElement Name="FactionTraitResilitantHealth1">
+    <Title>%FactionTraitResilitantHealth1Title</Title>
+    <Description>%FactionTraitResilitantHealth1Description</Description>
+  </GuiElement>
+
+  <GuiElement Name="FactionTraitResilitantHealth2">
+    <Title>%FactionTraitResilitantHealth1Title</Title>
+    <Description>%FactionTraitResilitantHealth1Description</Description>
+  </GuiElement>
+
+      <!-- Homesick -->
+  <GuiElement Name="FactionTraitHomesick1">
+    <Title>%FactionTraitHomesick1Title</Title>
+    <Description>%FactionTraitHomesick1Description</Description>
+  </GuiElement>
+
+    <!-- Disregard of Life 1-3 -->
+  <GuiElement Name="FactionTraitDisregardForLife1">
+    <Title>%FactionTraitDisregardForLife1Title</Title>
+    <Description>%FactionTraitDisregardForLife1Description</Description>
+  </GuiElement>
+  <GuiElement Name="FactionTraitDisregardForLife2">
+    <Title>%FactionTraitDisregardForLife1Title</Title>
+    <Description>%FactionTraitDisregardForLife1Description</Description>
+  </GuiElement>
+  <GuiElement Name="FactionTraitDisregardForLife3">
+    <Title>%FactionTraitDisregardForLife1Title</Title>
+    <Description>%FactionTraitDisregardForLife1Description</Description>
+  </GuiElement>
+
+  <!-- Military Doctrine 1-3 -->
+  <GuiElement Name="FactionTraitMilitaryDoctrine1">
+    <Title>%FactionTraitMilitaryDoctrine1Title</Title>
+    <Description>%FactionTraitMilitaryDoctrine1Description</Description>
+  </GuiElement>
+  <GuiElement Name="FactionTraitMilitaryDoctrine2">
+    <Title>%FactionTraitMilitaryDoctrine1Title</Title>
+    <Description>%FactionTraitMilitaryDoctrine1Description</Description>
+  </GuiElement>
+  <GuiElement Name="FactionTraitMilitaryDoctrine3">
+    <Title>%FactionTraitMilitaryDoctrine1Title</Title>
+    <Description>%FactionTraitMilitaryDoctrine1Description</Description>
+  </GuiElement>
+
+      <!-- Clarion Call 1-2 -->
+  <GuiElement Name="FactionTraitClarionCall1">
+    <Title>%FactionTraitClarionCall1Title</Title>
+    <Description>%FactionTraitClarionCall1Description</Description>
+  </GuiElement>
+
+  <GuiElement Name="FactionTraitClarionCall2">
+    <Title>%FactionTraitClarionCall1Title</Title>
+    <Description>%FactionTraitClarionCall1Description</Description>
+  </GuiElement>
+  
+  <GuiElement Name="FactionTraitClarionCall3">
+    <Title>%FactionTraitClarionCall1Title</Title>
+    <Description>%FactionTraitClarionCall1Description</Description>
+  </GuiElement>
+  
+
+		<!-- NAVAL MILITARY TRAITS -->
+    <!-- Expert Shipwrights 1-2 -->
+  <GuiElement Name="FactionTraitExpertShipwrights1">
+    <Title>%FactionTraitExpertShipwrights1Title</Title>
+    <Description>%FactionTraitExpertShipwrights1Description</Description>
+  </GuiElement>
+
+  <GuiElement Name="FactionTraitExpertShipwrights2">
+    <Title>%FactionTraitExpertShipwrights1Title</Title>
+    <Description>%FactionTraitExpertShipwrights1Description</Description>
+  </GuiElement>
+  
+      <!-- Naval Offence 1-3 -->
+  <GuiElement Name="FactionTraitNavalOffence1">
+    <Title>%FactionTraitNavalOffence1Title</Title>
+    <Description>%FactionTraitNavalOffence1Description</Description>
+  </GuiElement>
+  
+  <GuiElement Name="FactionTraitNavalOffence2">
+    <Title>%FactionTraitNavalOffence1Title</Title>
+    <Description>%FactionTraitNavalOffence1Description</Description>
+  </GuiElement>
+  
+  <GuiElement Name="FactionTraitNavalOffence3">
+    <Title>%FactionTraitNavalOffence1Title</Title>
+    <Description>%FactionTraitNavalOffence1Description</Description>
+  </GuiElement>
+  
+        <!-- Naval Defence 1-3 -->
+    <GuiElement Name="FactionTraitNavalDefence1">
+    <Title>%FactionTraitNavalDefence1Title</Title>
+    <Description>%FactionTraitNavalDefence1Description</Description>
+  </GuiElement>
+  
+  <GuiElement Name="FactionTraitNavalDefence2">
+    <Title>%FactionTraitNavalDefence1Title</Title>
+    <Description>%FactionTraitNavalDefence1Description</Description>
+  </GuiElement>
+  
+  <GuiElement Name="FactionTraitNavalDefence3">
+    <Title>%FactionTraitNavalDefence1Title</Title>
+    <Description>%FactionTraitNavalDefence1Description</Description>
+  </GuiElement>
+
+        <!-- Seafarers -->
+  <GuiElement Name="FactionTraitSeafarers1">
+    <Title>%FactionTraitSeafarers1Title</Title>
+    <Description>%FactionTraitSeafarers1Description</Description>
+  </GuiElement>
+</Datatable>
