@@ -2,7 +2,7 @@
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <RuntimeModule Name="GuvTraits" Type="Extension">
     <Tags>MajorFactions, Improvements</Tags>
-    <Author>Captain Cobbs & Guvenoren</Author>
+    <Author>Captain Cobbs and Guvenoren</Author>
     <Homepage></Homepage>
     <Title>Guvenoren Faction Traits</Title>
 	<Version Major="1" Minor="0" Revision="0" />
