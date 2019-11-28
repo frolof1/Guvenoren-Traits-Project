@@ -1,4 +1,263 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <!-- Broken Lords -->
+  <!-- Appetite for Dust -->
+  <FactionTrait Name="FactionTraitBrokenLords2" SubCategory="AffinityTrait" Family="MajorTrait" Custom="true" Cost="10">
+    <Prerequisites>!FactionTraitFlames3,!FactionTraitMimics1</Prerequisites>
+    <SimulationDescriptorReference Name="FactionTraitBrokenLords2"/>
+    <SimulationDescriptorReference Name="FactionTraitBuyOutPopulation"/>
+    <SimulationDescriptorReference Name="FactionTraitBrokenLords3"/>
+  </FactionTrait>
+  <!-- Heat Wave Effect -->
+  <FactionTrait Name="FactionTraitBrokenLordsHeatWave" SubCategory="DustEclipseTrait" Family="Hero" Custom="true" Cost="0" SeasonType="HeatWave">
+    <Prerequisites>
+      dlc:SummerFlamesPack
+    </Prerequisites>
+    <SimulationDescriptorReference Name="FactionTraitBrokenLordsHeatWave"/>
+  </FactionTrait>
+  <!-- MainQuest -->
+  <FactionTrait Name="FactionTraitBrokenLordsMainQuest" Custom="true" SubCategory="MainQuestTrait" Family="Quest">
+    <SimulationDescriptorReference Name="FactionTraitBrokenLordsMainQuest"/>
+  </FactionTrait>
 
+  <!-- Wild Walkers -->
+  <!-- The Sharing -->
+  <FactionTrait Name="FactionTraitMadFairiesTheSharing" SubCategory="AffinityTrait" Custom="true" Family="MajorTrait" Cost="15">
+    <SimulationDescriptorReference Name="FactionTraitMadFairiesTheSharing"/>
+  </FactionTrait>
+  <!-- Heat Wave Effect  -->
+  <FactionTrait Name="FactionTraitMadFairiesHeatWave" SubCategory="DustEclipseTrait" Family="Hero" Custom="true" Cost="0" SeasonType="HeatWave">
+    <Prerequisites>
+      dlc:SummerFlamesPack
+    </Prerequisites>
+    <SimulationDescriptorReference Name="FactionTraitMadFairiesHeatWave"/>
+  </FactionTrait>
+  <!-- MainQuest -->
+  <FactionTrait Name="FactionTraitMadFairiesMainQuest" Family="Quest" Custom="true" SubCategory="MainQuestTrait">
+    <SimulationDescriptorReference Name="FactionTraitMadFairiesMainQuest"/>
+    <SubTrait Name="FactionTraitMadFairies3"/>
+    <SubTrait Name="FactionTraitMadFairies4"/>
+  </FactionTrait>
+  
+  <!-- Vaulters -->
+  <!--  Affinity: Holy Resource  -->
+  <!--  Define an affinity strategic resource  -->
+  <FactionTrait Name="FactionTraitAffinityStrategic" SubCategory="AffinityTrait" Custom="true" Family="MajorTrait" Cost="25">
+    <SimulationDescriptorReference Name="FactionTraitAffinityStrategic"/>
+  </FactionTrait>
+  <!--  Heat Wave Effect  -->
+  <FactionTrait Name="FactionTraitVaultersHeatWave" SubCategory="DustEclipseTrait" Family="Hero" Custom="true" Cost="0" SeasonType="HeatWave">
+    <Prerequisites>
+      dlc:SummerFlamesPack
+    </Prerequisites>
+    <SimulationDescriptorReference Name="FactionTraitVaultersHeatWave"/>
+  </FactionTrait>
+  <!--  MainQuest  -->
+  <FactionTrait Name="FactionTraitVaultersMainQuest" Family="Quest" Custom="true" SubCategory="MainQuestTrait">
+    <SimulationDescriptorReference Name="FactionTraitVaultersMezari"/>
+    <SimulationDescriptorReference Name="FactionTraitVaultersMainQuest"/>
+  </FactionTrait>
+  
+  <!-- Necrophages -->
+  <!--  Affinity: Recycling  -->
+  <FactionTrait Name="FactionTraitNecrophagesRecycling" SubCategory="AffinityTrait" Family="MajorTrait" Custom="true" Cost="15">
+    <SimulationDescriptorReference Name="FactionTraitNecrophagesRecycling"/>
+  </FactionTrait>
+  <!--  Heat Wave Effect  -->
+  <FactionTrait Name="FactionTraitNecrophagesHeatWave" SubCategory="DustEclipseTrait" Family="Hero" Custom="true" Cost="0" SeasonType="HeatWave">
+    <Prerequisites>
+      dlc:SummerFlamesPack
+    </Prerequisites>
+    <SimulationDescriptorReference Name="FactionTraitNecrophagesHeatWave"/>
+  </FactionTrait>
+  <!--  MainQuest  -->
+  <FactionTrait Name="FactionTraitNecrophagesMainQuest" Family="Quest" Custom="true" SubCategory="MainQuestTrait">
+    <SimulationDescriptorReference Name="FactionTraitNecrophagesMainQuest"/>
+  </FactionTrait>
+
+  <!-- Ardent Mages -->
+  <!--  Affinity: Arcana Use  -->
+  <FactionTrait Name="FactionTraitRageWizardsArcanaUse" SubCategory="AffinityTrait" Family="MajorTrait" Custom="true" Cost="5">
+    <SimulationDescriptorReference Name="FactionTraitRageWizardsArcanaUse"/>
+  </FactionTrait>
+  <!--  Heat Wave Effect  -->
+  <FactionTrait Name="FactionTraitRageWizardsHeatWave" SubCategory="DustEclipseTrait" Family="Hero" Custom="true" Cost="0" SeasonType="HeatWave">
+    <Prerequisites>
+      dlc:SummerFlamesPack
+    </Prerequisites>
+    <SimulationDescriptorReference Name="FactionTraitRageWizardsHeatWave"/>
+  </FactionTrait>
+  <!--  MainQuest  -->
+  <FactionTrait Name="FactionTraitRageWizardsMainQuest" Family="Quest" Custom="true" SubCategory="MainQuestTrait">
+    <SimulationDescriptorReference Name="FactionTraitRageWizardsMainQuest"/>
+  </FactionTrait>
+
+  <!-- Roving Clans -->
+  <!--  Affinity: Nomadic Cities  -->
+  <FactionTrait Name="FactionTraitRovingClans12" SubCategory="AffinityTrait" Family="MajorTrait" Custom="true" Cost="10">
+    <SimulationDescriptorReference Name="FactionTraitRovingClans12"/>
+  </FactionTrait>
+  <!--  Heat Wave Effect  -->
+  <FactionTrait Name="FactionTraitRovingClansHeatWave" SubCategory="DustEclipseTrait" Family="Hero" Custom="true" Cost="0" SeasonType="HeatWave">
+    <Prerequisites>
+      dlc:SummerFlamesPack
+    </Prerequisites>
+    <SimulationDescriptorReference Name="FactionTraitRovingClansHeatWave"/>
+  </FactionTrait>
+  <!--  Faction Trait: Make Trade Not War  -->
+  <FactionTrait Name="FactionTraitRovingClans8" SubCategory="StandardTrait" Family="Diplomacy" Custom="true" Cost="-10">
+    <SimulationDescriptorReference Name="FactionTraitRovingClans8"/>
+  </FactionTrait>
+  <!--  MainQuest  -->
+  <FactionTrait Name="FactionTraitRovingClansMainQuest" Family="Quest" Custom="true" SubCategory="MainQuestTrait">
+    <SimulationDescriptorReference Name="FactionTraitRovingClansMainQuest"/>
+  </FactionTrait>
+  
+  <!-- Drakken -->
+  <!--  Affinity: Diplomatic Pressure  -->
+  <FactionTrait Name="FactionTraitDrakkens6" SubCategory="AffinityTrait" Family="MajorTrait" Custom="true" Cost="25">
+    <SimulationDescriptorReference Name="FactionTraitDrakkens6"/>
+  </FactionTrait>
+  <!--  Heat Wave Effect  -->
+  <FactionTrait Name="FactionTraitDrakkensHeatWave" SubCategory="DustEclipseTrait" Family="Hero" Custom="true" Cost="0" SeasonType="HeatWave">
+    <Prerequisites>
+      dlc:SummerFlamesPack
+    </Prerequisites>
+    <SimulationDescriptorReference Name="FactionTraitDrakkensHeatWave"/>
+  </FactionTrait>
+  <!--  MainQuest  -->
+  <FactionTrait Name="FactionTraitDrakkensMainQuest" Family="Quest" Custom="true" SubCategory="MainQuestTrait">
+    <SimulationDescriptorReference Name="FactionTraitDrakkensMainQuest"/>
+  </FactionTrait>
+
+  <!-- Cultists -->
+  <!--  Affinity: High Seat of the Queen  -->
+  <FactionTrait Name="FactionTraitCultists7" SubCategory="AffinityTrait" Family="MajorTrait" Custom="true" Cost="-20">
+    <SimulationDescriptorReference Name="FactionTraitCultists7"/>
+  </FactionTrait>
+  <FactionTrait Name="FactionTraitCultists7bis" SubCategory="AffinityTrait" Family="MajorTrait" Custom="true" Cost="5">
+    <Prerequisites>FactionTraitMimics1</Prerequisites>
+    <SimulationDescriptorReference Name="FactionTraitCultists7bis"/>
+  </FactionTrait>
+  <!--  Heat Wave Effect  -->
+  <FactionTrait Name="FactionTraitCultistsHeatWave" SubCategory="DustEclipseTrait" Family="Hero" Custom="true" Cost="0" SeasonType="HeatWave">
+    <Prerequisites>
+      dlc:SummerFlamesPack
+    </Prerequisites>
+    <SimulationDescriptorReference Name="FactionTraitCultistsHeatWave"/>
+  </FactionTrait>
+  <!--  MainQuest  -->
+  <FactionTrait Name="FactionTraitCultistsMainQuest" Family="Quest" Custom="true" SubCategory="MainQuestTrait">
+    <SimulationDescriptorReference Name="FactionTraitCultistsMainQuest"/>
+  </FactionTrait>
+
+  <!-- Forgotten -->
+  <!--  Affinity: Science-phobic  -->
+  <FactionTrait Name="FactionTraitReplicants1" SubCategory="AffinityTrait" Family="MajorTrait" Custom="true" Cost="-10">
+    <Prerequisites>dlc:ReplicantsPack</Prerequisites>
+    <SimulationDescriptorReference Name="FactionTraitReplicants1"/>
+  </FactionTrait>
+  <!--  Heat Wave Effect  -->
+  <FactionTrait Name="FactionTraitReplicantsHeatWave" SubCategory="DustEclipseTrait" Family="Hero" Custom="true" Cost="0" SeasonType="HeatWave">
+    <Prerequisites>
+      dlc:SummerFlamesPack
+    </Prerequisites>
+    <Prerequisites>dlc:ReplicantsPack</Prerequisites>
+    <SimulationDescriptorReference Name="FactionTraitReplicantsHeatWave"/>
+  </FactionTrait>
+  <!--  MainQuest  -->
+  <FactionTrait Name="FactionTraitReplicantsMainQuest" Family="Quest" Custom="true" SubCategory="MainQuestTrait">
+    <Prerequisites>
+      dlc:ReplicantsPack
+    </Prerequisites>
+    <SimulationDescriptorReference Name="FactionTraitReplicantsMainQuest"/>
+  </FactionTrait>
+  
+  <!-- Allayi -->
+  <!--  Affinity: Shifting  -->
+  <FactionTrait Name="FactionTraitWinterShifters1" Family="MajorTrait" SubCategory="AffinityTrait" Custom="true" Cost="5">
+    <Prerequisites>dlc:WinterShiftersPack</Prerequisites>
+    <SimulationDescriptorReference Name="FactionTraitWinterShifters1"/>
+  </FactionTrait>
+  <!--  Heat Wave Effect  -->
+  <FactionTrait Name="FactionTraitWinterShiftersHeatWave" SubCategory="DustEclipseTrait" Family="Hero" Custom="true" Cost="0" SeasonType="HeatWave">
+    <Prerequisites>
+      dlc:SummerFlamesPack
+    </Prerequisites>
+    <Prerequisites>dlc:WinterShiftersPack</Prerequisites>
+    <SimulationDescriptorReference Name="FactionTraitWinterShiftersHeatWave"/>
+  </FactionTrait>
+  <!--  MainQuest  -->
+  <FactionTrait Name="FactionTraitWinterShiftersMainQuest" Family="Quest" Custom="true" SubCategory="MainQuestTrait">
+    <Prerequisites>
+      dlc:WinterShiftersPack
+    </Prerequisites>
+  </FactionTrait>
+
+  <!-- Morgawr -->
+  <!--  Affinity: Neptunian  -->
+  <FactionTrait Name="FactionTraitSeaDemons1" SubCategory="AffinityTrait" Custom="true" Family="MajorTrait" Cost="5">
+    <Prerequisites>dlc:NavalPack</Prerequisites>
+    <SimulationDescriptorReference Name="FactionTraitSeaDemons1"/>
+    <SimulationDescriptorReference Name="SeaDemonsIntegrationDescriptor1"/>
+  </FactionTrait>
+  <!--  Heat Wave Effect  -->
+  <FactionTrait Name="FactionTraitSeaDemonsHeatWave" SubCategory="DustEclipseTrait" Family="Hero" Custom="true" Cost="0" SeasonType="HeatWave">
+    <Prerequisites>
+      dlc:SummerFlamesPack
+    </Prerequisites>
+    <Prerequisites>dlc:NavalPack</Prerequisites>
+    <SimulationDescriptorReference Name="FactionTraitSeaDemonsHeatWave"/>
+  </FactionTrait>
+  <!--  MainQuest  -->
+  <FactionTrait Name="FactionTraitSeaDemonsMainQuest" Family="Quest" Custom="true" SubCategory="MainQuestTrait">
+    <SimulationDescriptorReference Name="FactionTraitSeaDemonsMainQuest"/>
+  </FactionTrait>
+  
+  <!-- Kapaku -->
+  <!--  Lithovores  -->
+  <FactionTrait Name="FactionTraitFlames3" SubCategory="AffinityTrait" Custom="true" Family="MajorTrait" Cost="20">
+    <Prerequisites>
+      dlc:SummerFlamesPack
+    </Prerequisites>
+    <SimulationDescriptorReference Name="FactionTraitFlames3"/>
+  </FactionTrait>
+  <!--  Heat Wave Effect  -->
+  <FactionTrait Name="FactionTraitFlamesHeatWave" SubCategory="DustEclipseTrait" Family="Hero" Custom="true" Cost="0" SeasonType="HeatWave">
+    <Prerequisites>
+      dlc:SummerFlamesPack
+    </Prerequisites>
+    <SimulationDescriptorReference Name="FactionTraitFlamesHeatWave"/>
+  </FactionTrait>
+  <!--  MainQuest  -->
+  <FactionTrait Name="FactionTraitFlamesMainQuest" Family="Quest" Custom="true" SubCategory="MainQuestTrait">
+    <Prerequisites>
+      dlc:SummerFlamesPack
+    </Prerequisites>
+    <SimulationDescriptorReference Name="FactionTraitFlamesMainQuest"/>
+  </FactionTrait>
+
+  <!-- Mykara -->
+  <!--  Creeping Prescence  -->
+  <FactionTrait Name="FactionTraitMimics1" SubCategory="AffinityTrait" Custom="true" Family="MajorTrait" Cost="25">
+    <Prerequisites>
+      dlc:MimicsPack
+    </Prerequisites>
+    <SimulationDescriptorReference Name="FactionTraitMimics1"/>
+  </FactionTrait>
+  <!--  Heat Wave Effect  -->
+  <FactionTrait Name="FactionTraitMimicsHeatWave" SubCategory="DustEclipseTrait" Family="Hero" Custom="true" Cost="0" SeasonType="HeatWave">
+    <Prerequisites>
+      dlc:SummerFlamesPack
+    </Prerequisites>
+    <Prerequisites>dlc:MimicsPack</Prerequisites>
+    <SimulationDescriptorReference Name="FactionTraitMimicsHeatWave"/>
+  </FactionTrait>
+  <!--  MainQuest  -->
+  <FactionTrait Name="FactionTraitMimicsMainQuest" Family="Quest" Custom="true" SubCategory="MainQuestTrait">
+    <Prerequisites>
+      dlc:MimicsPack
+    </Prerequisites>
+    <SimulationDescriptorReference Name="FactionTraitMimicsMainQuest"/>
+  </FactionTrait>
 </Datatable>
